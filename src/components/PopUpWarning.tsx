@@ -1,0 +1,42 @@
+import PopUpBase from '@components/PopUpBase';
+import { IPopUp } from '@hooks/usePopUp';
+import { Button, Stack, Typography } from '@mui/material';
+
+type Props = IPopUp & {
+    title?: string;
+    message?: string;
+};
+
+export default function PopUpWarning(props: Props) {
+    return (
+        <PopUpBase
+            open={props.open}
+            dialogProps={{ fullWidth: true, maxWidth: 'xs' }}
+            onClose={props.onClose}
+            onConfirm={() => {}}
+            title={
+                <Typography variant="h4" color="error">
+                    {props.title || 'Warning'}
+                </Typography>
+            }
+            hideConfirm
+            hideClose
+            subTitleProps={{ sx: { color: 'gray' } }}
+            minWidthButton={150}
+            desc={
+                <Stack mt={1} pb={0.5}>
+                    <Typography textAlign={'center'}>{props.message || 'Are you sure to delete?'}</Typography>
+
+                    <Stack mt={3} direction={'row'} justifyContent="space-around">
+                        <Button sx={{ minWidth: 130 }} variant="cancel" onClick={props.onClose}>
+                            No
+                        </Button>
+                        <Button sx={{ minWidth: 130 }} variant="errorContained" onClick={props.onConfirm}>
+                            Yes
+                        </Button>
+                    </Stack>
+                </Stack>
+            }
+        />
+    );
+}

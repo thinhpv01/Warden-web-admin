@@ -1,0 +1,3 @@
+[submodule "src/submodules/warden-ops-base-model"]
+	path = src/submodules/warden-ops-base-model
+	url = git@github.com:UKParkingControl/warden-ops-base-model.git

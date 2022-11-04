@@ -1,0 +1,10 @@
+{
+    "title": "Title gb",
+    "description": {
+        "part1": "GB This is an example without namespaces.",
+        "part2": "GB In order to infer the appropriate type for t function, you should use type augmentation to override the Resources type.",
+        "part3": "GB Check out the @types/react-i18next to see an example."
+    },
+    "name": "name gb"
+    
+}

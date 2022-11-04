@@ -1,0 +1,70 @@
+{
+    "title": "Welcome to react using react-i18next and typescript 4.1",
+    "description": {
+        "part1": "This is an example without namespaces.",
+        "part2": "In order to infer the appropriate type for t function, you should use type augmentation to override the Resources type.",
+        "part3": "Check out the @types/react-i18next to see an example."
+    },
+    "wardenPage": {
+        "title": {
+            "hello": "Hello"
+        },
+        "text": {
+            "searchByName": "Search by name",
+            "phone": "Phone",
+            "email": "Email",
+            "allocated": "Allocated",
+            "locations": "locations",
+            "startDate": "Start date",
+            "contractedHours": "Contracted hours"
+        }
+    },
+    "wardenDetailsPage": {
+        "title": {
+            "personalInfo": "Personal information",
+            "calendarAndSchedule": "Calendar & Schedule",
+            "sendEmail": "Send email",
+            "workingSummary": "Working summary",
+            "workCalendar": "Work calendar",
+            "weeklySchedule": "Weekly schedule"
+        },
+        "text": {
+            "active": "Active",
+            "fullName": "Full name",
+            "email": "Email",
+            "phoneNumber": "Phone number",
+            "postCode": "Post code",
+            "wardenNumber": "Warden Number",
+            "iWardenNumber": "iWarden Number",
+            "contractedHours": "Contracted Hours",
+            "startDate": "Start date",
+            "subject": "Subject",
+            "message": "Message",
+            "assigned": "Assigned",
+            "lieuDay": "Lieu day",
+            "remainHours": "Remain hours",
+            "overTime": "OT"
+        },
+        "placeHolder": {
+            "subject": "Enter subject here!",
+            "message": "Enter your message here!",
+            "error": "This field is required"
+        },
+        "button": {
+            "cancel": "Cancel",
+            "sendNow": "Send now",
+            "updateCalendar": "Update calendar",
+            "addWeek": "Add week",
+            "updateSchedule": "Update schedule"
+        }
+    },
+    "locationPage": {
+        "title": {
+            "locationTitle": "Location"
+        },
+        "text": {
+            "searchBy": "Enter location name",
+            "types": "Types"
+        }
+    }
+}

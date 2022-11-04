@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@Core": ["src/submodules/warden-ops-base-model/base-model/index.ts"],
+            "@Core/*": ["src/submodules/warden-ops-base-model/base-model/*"],
+            "@LocationOps/*": ["src/submodules/warden-ops-base-model/location-ops-model/*"],
+            "@WardenOps/*": ["src/submodules/warden-ops-base-model/warden-ops-model/*"],
+            "@components/*": ["src/components/*"],
+            "@config": ["src/config"],
+            "@controllers": ["src/controllers"],
+            "@helpers": ["src/helpers"],
+            "@hooks/*": ["src/hooks/*"],
+            "@i18n/*": ["src/i18n/*"],
+            "@pages/*": ["src/pages/*"],
+            "@theme": ["src/theme"]
+        }
+    }
+}
